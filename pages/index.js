@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Widget from '../src/components/Widget'
 
 const StyledContainer = styled.div`
-  max-width: 3050px;
+  max-width: 500px;
   padding-top: 45px;
   margin: auto 38%; 
   min-height: 100vh; 
@@ -31,9 +31,16 @@ export default function Home() {
       </Head>
 
       <StyledContainer>
-        <Widget.Header>
+        <Widget>
+          <Widget.Header>
           <h1>{db.title}</h1>
         </Widget.Header>
+
+        <Widget.Content>
+          <p>{db.description}</p>
+        </Widget.Content>
+        </Widget>
+        
         
       </StyledContainer>
 

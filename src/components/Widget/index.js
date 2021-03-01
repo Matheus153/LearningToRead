@@ -18,9 +18,10 @@ const Widget = styled.div`
     margin-bottom: 0;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.2;
+    text-align: justify
   }
 `;
 
@@ -28,12 +29,12 @@ Widget.Header = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 16px 32px;
+  padding: 14px 28px;
   background-color: ${({ theme }) => theme.colors.secondary};
   width: 100%;
   border-radius: ${({ theme }) => theme.borderRadius};
   text-shadow: -2px 2px 1px rgba(10, 10, 10, .8);
-  opacity: .9;
+  opacity: .8;
   
   
   * {
