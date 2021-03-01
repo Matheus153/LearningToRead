@@ -3,9 +3,10 @@ import Head from 'next/head'
 import Background from '../src/components/Background'
 import db from '../db.json'
 import styled from 'styled-components'
+import Widget from '../src/components/Widget'
 
 const StyledContainer = styled.div`
-  max-width: 350px;
+  max-width: 3050px;
   padding-top: 45px;
   margin: auto 38%; 
   min-height: 100vh; 
@@ -30,7 +31,10 @@ export default function Home() {
       </Head>
 
       <StyledContainer>
-        <h1>Olá mundo!</h1>
+        <Widget.Header>
+          <h1>{db.title}</h1>
+        </Widget.Header>
+        
       </StyledContainer>
 
     </Background>
