@@ -17,8 +17,8 @@ const StyledContainer = styled.div`
   align-items: center;
   @media screen and (max-width: 500px) {
     margin: auto;
-    padding: 15px;
-    min-height: 92vh;
+    padding: 10px;
+    min-height: 50vh;
   }
 `
 

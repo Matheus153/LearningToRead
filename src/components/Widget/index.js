@@ -33,7 +33,7 @@ Widget.Header = styled.header`
   width: 100%;
   border-radius: ${({ theme }) => theme.borderRadius};
   text-shadow: -2px 2px 1px rgba(10, 10, 10, .8);
-  opacity: .85;
+  opacity: .9;
   
   
   * {
