@@ -1,0 +1,12 @@
+{   "bg": "https://livroseleiturass.files.wordpress.com/2013/04/background.jpg",
+    "theme": {
+        "colors": {
+          "primary": "#222222",
+          "secondary": "#6F05C0",
+          "mainBg": "#202020",
+          "contrastText": "#fefef3",
+          "wrong": "#FF4d22",
+          "success": "#4CAF50"
+        }
+    }      
+}
