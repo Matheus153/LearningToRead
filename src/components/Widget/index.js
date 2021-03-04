@@ -17,6 +17,19 @@ const Widget = styled.div`
     line-height: 1;
     margin-bottom: 0;
   }
+
+  h4 {
+    font-size: 1.3em;
+    line-height: 1;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 1.1em;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  
   p {
     font-size: 16px;
     font-weight: 400;
@@ -35,6 +48,7 @@ Widget.Header = styled.header`
   border-radius: ${({ theme }) => theme.borderRadius};
   text-shadow: -2px 2px 1px rgba(10, 10, 10, .8);
   opacity: .8;
+  
   
   
   * {

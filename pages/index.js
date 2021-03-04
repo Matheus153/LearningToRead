@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Widget from '../src/components/Widget'
 
 const StyledContainer = styled.div`
-  max-width: 500px;
+  max-width: 350px;
   padding-top: 45px;
   margin: auto 38%; 
   min-height: 100vh; 
@@ -15,10 +15,11 @@ const StyledContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
   @media screen and (max-width: 500px) {
     margin: auto;
     padding: 10px;
-    min-height: 70vh;
+    min-height: 80vh;
   }
 `
 
@@ -32,16 +33,33 @@ export default function Home() {
 
       <StyledContainer>
         <Widget>
-          <Widget.Header>
+        <Widget.Header>
           <h1>{db.title}</h1>
         </Widget.Header>
+
+        <img alt="image" style={{
+          width: '100%',
+          height: '200px',
+          objectFit: 'cover',
+          marginTop: '20px'
+        }}
+        src={db.image}/>
 
         <Widget.Content>
           <p>{db.description}</p>
         </Widget.Content>
-        </Widget>
+
+        <Widget.Header style={{
+          borderRadius: '0'
+        }}><h4>Regra do primeiro passo</h4></Widget.Header>
+
+        <Widget.Content>
+          <p>{db.conteudo.pass1}</p>
+          <p>Obs: não recomendo que comece lendo livros curtos.</p>
+        </Widget.Content>
         
         
+        </Widget>   
       </StyledContainer>
 
     </Background>
