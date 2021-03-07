@@ -36,6 +36,13 @@ const Widget = styled.div`
     line-height: 1.2;
     text-align: justify
   }
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
 `;
 
 Widget.Header = styled.header`

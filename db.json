@@ -2,10 +2,15 @@
     "title": "Passos para começar a gostar de ler",
     "description": "Sabemos como é difícil arranjar tempo para uma boa leitura e, principalmente, tentar começar a ler em um ambiente caótico. Então aqui vai alguns passos para pegar no tranco o hábito de ler.",
     "image": "read-world.gif",
-    "image2st": "http://3.bp.blogspot.com/-ih6FN-YhjB4/UjCwiByScKI/AAAAAAAAeG4/bW6vUJx3aQ0/s1600/2.gif",
-    
+    "imageIcarly": "reading-icarly.gif",
+    "imageCat": "read-cat.gif",
     "conteudo": {
-        "pass1": "O começo é a parte mais difícil de todas. Se tiver força de vontade suficiente para começar, você já está feito! Trace metas simples e fáceis de serem concluídas. Procure os livros que possuem uma leitura fluída."
+        "pass1": "O começo é a parte mais difícil de todas. Se tiver força de vontade suficiente para começar, você já está feito! Trace metas simples e fáceis de serem concluídas. Procure os livros que possuem uma leitura fluída.",
+        "pass2": "É importante saber dosar seu tempo, geralmente 10min de leitura já são mais que o suficiente por dia.",
+        "pass2a": "Evite momentos de estresse, muitos afazeres e pessoas. Sim, isso mesmo. Dessa forma encaixará bem esse hábito na sua rotina.",
+        "pass3": "É provável que quando comece a ler você odeie aquilo. Sabe, também não gostava. Achava desnecessário mas a mente precisa ser renovada assim como a espada precisa ser afiada.",
+        "pass3a": "Se você repetir em conteúdos que você goste, com certeza vai pegar essa boa mania.",
+        "pass3b": "O que de mau pode acontecer se você o fizer? Você não tem o que perder, então por que não ganhar?"
     },
 
     "theme": {
