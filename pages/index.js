@@ -31,7 +31,7 @@ export default function Home() {
       transition={{ delay: 0.1, duration: 0.5, ease: "easeOut" }}
       variants={{
         show: {opacity: 1, x:'0'},
-        hidden: {opacity: 0, x:'55%'}
+        hidden: {opacity: 0, x:'-55%'}
       }}
       initial="hidden"
       animate="show">
