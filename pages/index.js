@@ -1,6 +1,5 @@
 import { delBasePath } from 'next/dist/next-server/lib/router/router'
 import { motion } from 'framer-motion'
-import Head from 'next/head'
 import Background from '../src/components/Background'
 import db from '../db.json'
 import styled from 'styled-components'
@@ -27,10 +26,6 @@ const StyledContainer = styled.div`
 export default function Home() {
   return (
     <Background backgroundImage={db.bg}>
-      <Head>
-        <title>Apredendo a gostar de ler</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <StyledContainer as={motion.section}
       transition={{ delay: 0.1, duration: 0.5, ease: "easeOut" }}
