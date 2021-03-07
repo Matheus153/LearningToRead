@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
         <Head>
-          <title>Aprendendo a gostar de ler</title>
+          <title>Passos para começar a gostar de ler</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
       <ThemeProvider theme={theme}>
