@@ -16,6 +16,7 @@ const Widget = styled.div`
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0;
+    text-align: center;
   }
 
   h4 {

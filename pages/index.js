@@ -6,11 +6,12 @@ import styled from 'styled-components'
 import Widget from '../src/components/Widget'
 
 const StyledContainer = styled.div`
-  max-width: 350px;
+  width: 100%;
+  max-width: 400px;
   padding-top: 45px;
-  margin: auto 38%; 
+  margin: auto 34%; 
   min-height: 100vh; 
-  padding: 0 0.5rem;
+  padding: 0 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +20,7 @@ const StyledContainer = styled.div`
   @media screen and (max-width: 500px) {
     margin: auto;
     padding: 10px;
-    min-height: 80vh;
+    min-height: 90vh;
   }
 `
 
