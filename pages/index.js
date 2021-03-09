@@ -7,9 +7,9 @@ import Widget from '../src/components/Widget'
 
 const StyledContainer = styled.div`
   width: 100%;
-  max-width: 400px;
+  max-width: 375px;
   padding-top: 45px;
-  margin: auto 34%; 
+  margin: auto 35%; 
   min-height: 100vh; 
   padding: 0 0.5em;
   display: flex;
