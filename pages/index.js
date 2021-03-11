@@ -41,8 +41,7 @@ export default function Home() {
           <h1>{db.title}</h1>
         </Widget.Header>
 
-        <img alt="image" 
-        src={db.image}/>
+        
 
         <Widget.Content>
           <p>{db.description}</p>
@@ -52,7 +51,7 @@ export default function Home() {
           borderRadius: '0'
         }}><h4>Regra do primeiro passo</h4></Widget.Header>
 
-        <img src={db.imageCat} alt="cat"/>
+       
 
         <Widget.Content>
           <p>{db.conteudo.pass1}</p>
@@ -73,9 +72,7 @@ export default function Home() {
           borderRadius: '0'
         }}><h4>Repetição gera perfeição</h4></Widget.Header>
         
-        <img alt="image" 
-        src={db.imageIcarly}/>
-
+       
         <Widget.Content>
           <p>{db.conteudo.pass3}</p>
           <p>{db.conteudo.pass3a}</p>
