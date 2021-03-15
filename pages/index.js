@@ -28,6 +28,10 @@ export default function Home() {
   return (
     <Background backgroundImage={db.bg}>
 
+     <img src="logo.jpg" alt="logo" style={{
+          width: '230px'
+        }}/>
+
       <StyledContainer as={motion.section}
       transition={{ delay: 0.1, duration: 0.5, ease: "easeOut" }}
       variants={{
@@ -88,8 +92,10 @@ export default function Home() {
           marginBottom: '25px',
           textShadow: '-2px 2px 1px rgba(10, 10, 10, .8)'
         }}>Tenha uma boa leitura!</footer>  
-      </StyledContainer>
 
+       
+      </StyledContainer>
+      
     </Background>
     
       
