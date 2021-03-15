@@ -96,11 +96,7 @@ export default function Home() {
        
       </StyledContainer>
       
-    </Background>
-    
-      
-
-     
+    </Background>   
     
   )
 }
